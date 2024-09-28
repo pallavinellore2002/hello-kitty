@@ -7,12 +7,12 @@
       "create_function_url": true,
       "description": null,
       "environment_variables": {
-        "IMAGES_BUCKET": "Pallavi-Nellore"
+        "IMAGES_BUCKET": "pallavinellore27"
       },
       "event_source_arn": null,
       "event_source_mapping": [],
       "filename": null,
-      "function_name": "hello-kitty-function-Pallavi-Nellore",
+      "function_name": "hello-kitty-function-pallavinellore27",
       "handler": "main.lambda_handler",
       "log_format": null,
       "log_group_name": "${module.appcd_86ec452a-770a-59bf-87dd-67ed883e25e5.name}",
@@ -53,7 +53,7 @@
       "website_index_document": "index.html"
     },
     "appcd_86ec452a-770a-59bf-87dd-67ed883e25e5": {
-      "name": "/aws/lambda/hello-kitty-function-Pallavi-Nellore",
+      "name": "/aws/lambda/hello-kitty-function-pallavinellore27",
       "retention_in_days": 7,
       "source": "./modules/aws_cloudwatch_log_group",
       "tags": {
@@ -66,7 +66,7 @@
       "description": null,
       "force_detach_policies": true,
       "inline_policy": [],
-      "name": "hello-kitty-role-Pallavi-Nellore",
+      "name": "hello-kitty-role-pallavinellore27",
       "source": "./modules/aws_iam_role",
       "tags": {
         "appstack": "Hello-Kitty",
